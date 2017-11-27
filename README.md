@@ -3,6 +3,7 @@ A repo to backup all the dot files on my system
 
 ## Cheatsheets/Shortcuts
 * [WSL/Windows Subsystem for Linux/Bash on Ubuntu on Windows Keyboard Shortcuts](https://technet.microsoft.com/library/mt427362.aspx)
+  * `Alt + Enter` for fullscreen
 * [VSCode Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
   * `Ctrl + Shift + P` for Command Palette
   * `Ctrl + K V` for [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
