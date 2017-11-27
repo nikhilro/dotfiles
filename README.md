@@ -6,7 +6,7 @@ A repo to backup all the dot files on my system
 * [VSCode Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
   * `Ctrl + Shift + P` for Command Palette
   * `Ctrl + K V` for [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
-  * 
+  * `Ctrl + K Z` for Zen Mode
 
 ## Tips/Easter Eggs
 * Use `bash -c "[replace with command]"` to run bash commands from Run *(Win+R)*
@@ -17,7 +17,7 @@ A repo to backup all the dot files on my system
 
 ## Getting to my current configuration
 * Install Bash on Windows, Zsh in bash, Hyper and VSCode
-  * Remember to hide old repos in local GitHub folder by [changing workspace setting](https://code.visualstudio.com/docs/getstarted/settings)
+  * Remember to hide old repos in local GitHub folder by [changing workspace setting](https://code.visualstudio.com/docs/getstarted/settings) 
     * Hidden rn:
       ```
       "files.exclude": {
@@ -44,7 +44,8 @@ A repo to backup all the dot files on my system
   * Use `ssh://git@github.com/username/repo.git` instead `https://github.com/username/repo.git`
 * Edit file `.hyper.js` in `c/users/{username}` and add local plugins in `c/users/{username}/.hyper_plugins`
 * Plugins installed in Hyper so far:
-  * 'hyper-adventure-time',
+   ```
+    'hyper-adventure-time',
     //'hyper-dracula',
     'hyper-dark-scrollbar',
     // 'hyper-pane',
@@ -53,10 +54,11 @@ A repo to backup all the dot files on my system
     //`hyperterm-mactabs`
     //'hyper-statusline',
     //'hyper-tabs-enhanced'
-    'hyperline',
-    'hyperterm-alternatescroll',
-    'hyperlinks',
-    'hyperterm-tabs'
+    //'hyperline',
+    //'hyperterm-alternatescroll',
+    //'hyperlinks',
+    //'hyperterm-tabs'
+    ```
   * Suggestion: Download the source repo and add it as local plugin for additional customization 
 * Extensions installed on VSCode
   * mostly recommended ones
@@ -73,6 +75,6 @@ A repo to backup all the dot files on my system
 * https://portal.uwaterloo.ca 
 * https://repl.it/
 * http://www.macmillanhighered.com/launchpad/calculuset3e/6503070#/start
-* seadvisor.uwaterloo.ca / https://cambridge.uwaterloo.ca/advisor/AdvisorServlet;jsessionid=3B4FD9685B0CCFB5A3562777CB9C17C9
+* [seadvisor.uwaterloo.ca](https://cambridge.uwaterloo.ca/advisor/AdvisorServlet;jsessionid=3B4FD9685B0CCFB5A3562777CB9C17C9)
 * [To visualize programs](http://pythontutor.com/c.html#mode=edit)
 
