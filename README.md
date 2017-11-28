@@ -71,7 +71,21 @@ A repo to backup all the dot files on my system
 * Extensions installed on VSCode
   * mostly recommended ones
   * add one for pdf viewing
-
+  
+## Common Fixes
+ * Forcing Git to overwrite local changes:
+    ```
+    git fetch --all
+    git reset --hard origin/<branch_name>
+    ```
+    * Alternatively, save your current local commits by creating a branch from `master` before resetting
+      ```
+      git checkout master
+      git branch new-branch-to-save-current-commits
+      git fetch --all
+      git reset --hard origin/master
+      ```
+    * [Stackflow answer link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
 ## Links
 * http://www.math.uwaterloo.ca/~snew/
 * https://www.student.cs.uwaterloo.ca/~cs137/
