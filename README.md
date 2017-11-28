@@ -26,6 +26,8 @@ A repo to backup all the dot files on my system
   * `Ctrl + T` for new tab
   * `Ctrl + Shift + T` to restore closed tab
   * `Ctrl + Shift + N` to start incognito
+* [Vimium in Chrome Keyboard Shortcuts](https://github.com/philc/vimium#keyboard-bindings)
+  * `o` for url and `O` for url in new tab
 
 ## Tips/Easter Eggs
 
@@ -37,7 +39,7 @@ A repo to backup all the dot files on my system
 
 ## Getting to my current configuration
 
-* Install Bash on Windows, Zsh in bash, Hyper and VSCode
+* Install Chrome, [Vimium on Bash](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?utm_source=chrome-app-launcher-info-dialog), Bash on Windows, Zsh in bash, Hyper and VSCode
   * Remember to hide old repos in local GitHub folder by [changing workspace setting](https://code.visualstudio.com/docs/getstarted/settings)
     * Hidden rn:
       ``` javascript
