@@ -1,22 +1,34 @@
 # dotfiles
+
 A repo to backup all the dot files on my system
 
 ## Cheatsheets/Shortcuts
+
 * `F11` - Fullscreen
+* `Alt + Tab` to change apps
 * [WSL/Windows Subsystem for Linux/Bash on Ubuntu on Windows Keyboard Shortcuts](https://technet.microsoft.com/library/mt427362.aspx)
   * `Alt + Enter` for fullscreen
 * [VSCode Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
   * `Ctrl + Shift + P` for Command Palette
-  * `Ctrl + K V` for [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
+  * `Ctrl + K V` for [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) or `Ctrl + Shift + V`
   * `Ctrl + K Z` for Zen Mode
   * `Ctrl + P` to search files
+  * `Shift + Alt + F` to format document
+  * `Ctrl + K  Ctrl + F` to format selection
 * [Hyper Keyboard Shortcuts](https://github.com/iamstarkov/hyper-keymap/blob/master/src/default-keymap.js)
   * `Ctrl + Shift + T` for new tabs
   * `Ctrl + Tab` for navgating through tabs
-  * `Ctrl + Shift + D`  to split a tabs horizontally and ` + E` for vertically
+  * `Ctrl + Shift + D`  to split a tabs horizontally and  `+ E` for vertically
   * `Ctrl + PgDown/PgUp` to navigate through panes
+* Chrome Shortcuts
+  * `Ctrl + Shift + Tab` or `Ctrl + Tab` or `Ctrl + [#]` to change tabs
+  * `Ctrl + W` to close the tab
+  * `Ctrl + T` for new tab
+  * `Ctrl + Shift + T` to restore closed tab
+  * `Ctrl + Shift + N` to start incognito
 
 ## Tips/Easter Eggs
+
 * Use `bash -c "[replace with command]"` to run bash commands from Run *(Win+R)*
 * Use `Chrome.exe --app={link}` in Run (`Win+R`) to get a minimal view of the website
 * `:help42` in vim
@@ -24,10 +36,11 @@ A repo to backup all the dot files on my system
 * sudo apt-get install sl
 
 ## Getting to my current configuration
+
 * Install Bash on Windows, Zsh in bash, Hyper and VSCode
-  * Remember to hide old repos in local GitHub folder by [changing workspace setting](https://code.visualstudio.com/docs/getstarted/settings) 
+  * Remember to hide old repos in local GitHub folder by [changing workspace setting](https://code.visualstudio.com/docs/getstarted/settings)
     * Hidden rn:
-      ```
+      ``` javascript
       "files.exclude": {
           "**/.git": true,
           "**/.svn": true,
@@ -52,7 +65,7 @@ A repo to backup all the dot files on my system
   * Use `ssh://git@github.com/username/repo.git` instead `https://github.com/username/repo.git`
 * Edit file `.hyper.js` in `c/users/{username}` and add local plugins in `c/users/{username}/.hyper_plugins`
 * Plugins installed in Hyper so far:
-   ```
+   ``` javascript
     'hyper-adventure-time',
     //'hyper-dracula',
     'hyper-dark-scrollbar',
@@ -67,26 +80,29 @@ A repo to backup all the dot files on my system
     //'hyperlinks',
     //'hyperterm-tabs'
     ```
-  * Suggestion: Download the source repo and add it as local plugin for additional customization 
+  * Suggestion: Download the source repo and add it as local plugin for additional customization
 * Extensions installed on VSCode
   * mostly recommended ones
   * add one for pdf viewing
-  
+
 ## Common Fixes
- * Forcing Git to overwrite local changes:
-    ```
+
+* Forcing Git to overwrite local changes:
+  ``` git
+  git fetch --all
+  git reset --hard origin/<branch_name>
+  ```
+  * Alternatively, save your current local commits by creating a branch from `master` before resetting
+    ``` git
+    git checkout master
+    git branch new-branch-to-save-current-commits
     git fetch --all
-    git reset --hard origin/<branch_name>
+    git reset --hard origin/master
     ```
-    * Alternatively, save your current local commits by creating a branch from `master` before resetting
-      ```
-      git checkout master
-      git branch new-branch-to-save-current-commits
-      git fetch --all
-      git reset --hard origin/master
-      ```
-    * [Stackflow answer link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+  * [Stackflow answer link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
 ## Links
+
 * http://www.math.uwaterloo.ca/~snew/
 * https://www.student.cs.uwaterloo.ca/~cs137/
 * https://uwaterloo.ca/student-success/drop-in-tutoring
