@@ -15,6 +15,7 @@ A repo to backup all the dot files on my system
   * `Ctrl + P` to search files
   * `Shift + Alt + F` to format document
   * `Ctrl + K  Ctrl + F` to format selection
+  * `Alt + Z` to toggle text-wrapping
 * [Hyper Keyboard Shortcuts](https://github.com/iamstarkov/hyper-keymap/blob/master/src/default-keymap.js)
   * `Ctrl + Shift + T` for new tabs
   * `Ctrl + Tab` for navgating through tabs
