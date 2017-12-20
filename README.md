@@ -119,3 +119,6 @@ A repo to backup all the dot files on my system
 * [seadvisor.uwaterloo.ca](https://cambridge.uwaterloo.ca/advisor/AdvisorServlet;jsessionid=3B4FD9685B0CCFB5A3562777CB9C17C9)
 * [To visualize programs](http://pythontutor.com/c.html#mode=edit)
 
+# Add info from here
+* https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html
+* https://medium.com/@jrcharney/bash-on-ubuntu-on-windows-the-almost-complete-set-up-1dd3cb89b794
