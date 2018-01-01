@@ -18,7 +18,7 @@ module.exports = {
     cursorColor: 'rgba(248,28,229,0.8)',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
-    cursorShape: 'BLOCK',
+    cursorShape: 'BEAM',
 
     // set to true for blinking cursor
     cursorBlink: false,
@@ -167,7 +167,8 @@ module.exports = {
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
   localPlugins: [
-    'disappear-tabs'
+    'disappear-tabs', //hyper-hover-header
+    'hyper-light-scrollbar'
   ],
 
   keymaps: {
