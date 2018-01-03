@@ -28,8 +28,10 @@ gitUpdate(){
 
 alias ls='command ls --human-readable --group-directories-first --color=auto -I NTUSER.DAT\* -I ntuser.dat\*'
 
+# Put "" around the path if it is a windows path and you want the shell to convert it to the right format. Don't use it if the path given uses escape characters and is therefore not a valid windows path.  
 alias subl='"/mnt/c/Program Files/Sublime Text 3/sublime_text.exe"'
 alias code='"/mnt/c/Program Files/Microsoft VS Code/Code.exe"'
+alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
 
 # Display ANSI 16 colors - doesn't work atm
 printcolors () {
