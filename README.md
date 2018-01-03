@@ -37,6 +37,7 @@ A repo to backup all the dot files on my system
 * `:help42` in vim
 * `apt-get moo`
 * sudo apt-get install sl
+* To use windows link (with spaces etc.) in bash, put them in "".
 
 ## Getting to my current configuration
 
