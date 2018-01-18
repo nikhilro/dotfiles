@@ -38,6 +38,7 @@ A repo to backup all the dot files on my system
 * `apt-get moo`
 * sudo apt-get install sl
 * To use windows link (with spaces etc.) in bash, put them in "".
+* `-` is used to refer to standard input. For instance, `ls | diff file1 -` will do a diff on the output of ls with file1
 
 ## Getting to my current configuration
 
