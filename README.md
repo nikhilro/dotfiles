@@ -39,6 +39,7 @@ A repo to backup all the dot files on my system
 * sudo apt-get install sl
 * To use windows link (with spaces etc.) in bash, put them in "".
 * `-` is used to refer to standard input. For instance, `ls | diff file1 -` will do a diff on the output of ls with file1
+* *Useful for multi-tasking*: Use `Ctrl + Win + D` to create a new desktop and `Win + Tab` to move stuff around desktops. After this set up multiscreen for all apps in each desktop. Now, use **4 fingers** for a touchpad gesture to switch between desktops which is basically switching between apps because of full screen. 
 
 ## Getting to my current configuration
 
