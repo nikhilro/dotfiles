@@ -6,6 +6,7 @@ A repo to backup all the dot files on my system
 
 * `F11` - Fullscreen
 * `Alt + Tab` to change apps
+* `Alt` + `Esc` to change focus between panes
 * [WSL/Windows Subsystem for Linux/Bash on Ubuntu on Windows Keyboard Shortcuts](https://technet.microsoft.com/library/mt427362.aspx)
   * `Alt + Enter` for fullscreen
 * [VSCode Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
