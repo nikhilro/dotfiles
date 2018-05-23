@@ -108,6 +108,14 @@ A repo to backup all the dot files on my system
     ```
   * [Stackflow answer link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
 
+## Tools for a power user aka maximum productivity
+
+* [Boomerang for gmail](https://www.boomeranggmail.com/): For scheduling, "snoozing", tracking emails and followups
+* [ZoomIt](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit): To zoom in your screen during presentations/screen sharing
+* [Calendly](https://calendly.com): This makes scheduling calls with leads much much easier.
+* [Snagit](https://www.techsmith.com/screen-capture.html): All-in-one solution for screenshots
+* [Camstasia](https://www.techsmith.com/video-editor.html): Screen Recording + (easy) Video Editing
+
 ## Links
 
 * http://www.math.uwaterloo.ca/~snew/
